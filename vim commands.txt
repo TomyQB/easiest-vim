@@ -1,0 +1,80 @@
+SIMPLE MOVES
+h: left
+j: down
+k: up
+l: right
+
+MOVE FAST ON LANE
+L: init next word
+C-l: end next word with out signs
+J: init previus word
+C-j: end previus word with out signs
+0: ini
+=: fin
+t: go until next char
+f: search next word + ENTER
+	n: next
+	N: previus
+F: search previus word + ENTER
+	n: next
+	n: previus
+numer+i: go to lane up
+number+k: go to lane down
+
+MOVE VERTICAL
+ctrl + i: scroll top
+ctrl + k: scroll down
+I: previus vertical block
+K: next vertical block
+
+DELETE
+d: delte
+	dl: delete next char
+	dj: delete previus char
+	dL: delete next word
+	dJ: delete previus word
+	dt: delete until char
+	df: delete until word + enter
+	{number} + dd: delete line
+D: delete from cursor until the end of the line
+
+DELTE AND INSERT
+c: delete and insert
+	cl: delete next char + insert
+	cj: delete previus char + insert
+	cL: delete next word + insert
+	cJ: delete previus word + insert
+	ct: delete until char + insert
+	cf: delete until word + insert
+	{number} + cc: delete line + insert
+C: delete from cursor until the end of the line + insert
+
+COPY
+y: copy
+	yl: copy next char
+	yj: copy previus char
+	yL: copy next word
+	yJ: copy previus word
+	yf: copy until word + enter
+	{number} + yy: copy line
+Y: copy from cursor until the end of the line
+
+OTHERS
+.: repeat last action
+xx: put ; at the end of the lane
+vv: put , at the end of the lane
+o: new lane down
+O: new lane up
+p: paste
+gi: last place you did your last change
+v: select mode
+V: select line mode
+a: insert before
+space: insert after
+gp: go pattern () [] {}
+
+INSERT MODE
+jj: normal mode
+xx: put ; at the end of the lane
+vv: put , at the end of the lane
+

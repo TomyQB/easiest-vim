@@ -1,0 +1,277 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\Tomas\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "mssql.connections": [
+      {
+        "server": "DESKTOP-7TJ1HV9\\SQLSERVER",
+        "database": "TROBIFY",
+        "authenticationType": "Integrated",
+        "password": ""
+      }
+    ],
+    "java.refactor.renameFromFileExplorer": "autoApply",
+    "redhat.telemetry.enabled": true,
+    "angular.experimental-ivy": true,
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "vscode-simpler-icons",
+    "liveServer.settings.donotVerifyTags": true,
+  
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false,
+      "<C-x>": false,
+      "<C-c>": false,
+      "<C-h>": false,
+      "<C-v>": false,
+      "<C-y": false,
+      "<C-b>": false
+    },
+  
+    "vim.normalModeKeyBindingsNonRecursive": [
+      // CHANGE MOVE, INSERT MODE ON SPACE
+      {
+        "before": ["j"],
+        "after": ["h"]
+      },
+      {
+        "before": ["k"],
+        "after": ["g", "j"]
+      },
+      {
+        "before": ["i"],
+        "after": ["g", "k"]
+      },
+      {
+        "before": ["a"],
+        "after": ["i"]
+      },
+      {
+        "before": ["space"],
+        "after": ["a"]
+      },
+      {
+        "before": ["t"],
+        "after": ["f"]
+      },
+      {
+        "before": ["I"],
+        "after": ["{"]
+      },
+      {
+        "before": ["K"],
+        "after": ["}"]
+      }
+    ],
+  
+    "vim.normalModeKeyBindings": [
+      //CTRL+F LIKE VISUAL
+      {
+        "before": ["C-f"],
+        "after": ["/"]
+      },
+      {
+        "before": ["f"],
+        "after": ["/"]
+      },
+      {
+        "before": ["F"],
+        "after": ["?"]
+      },
+      //CHANGES MOVES BY WORD
+      {
+        "before": ["L"],
+        "after": ["w"]
+      },
+      {
+        "before": ["C-l"],
+        "after": ["e"]
+      },
+      {
+        "before": ["J"],
+        "after": ["b"]
+      },
+      {
+        "before": ["C-j"],
+        "after": ["g", "e"]
+      },
+      //INIT NO BLANK CHAR LANE
+      {
+        "before": ["0"],
+        "after": ["^"]
+      },
+      //END NO BLANK CHAR LINE
+      {
+        "before": ["="],
+        "after": ["$"]
+      },
+      //DELETE
+      {
+        "before": ["d", "j"],
+        "after": ["d", "h"]
+      },
+      {
+        "before": ["d", "f"],
+        "after": ["d", "/"]
+      },
+      {
+        "before": ["d", "J"],
+        "after": ["d", "b"]
+      },
+      {
+        "before": ["d", "L"],
+        "after": ["d", "w"]
+      },
+      //REMPLACE
+      {
+        "before": ["c", "j"],
+        "after": ["c", "h"]
+      },
+      {
+        "before": ["c", "f"],
+        "after": ["c", "/"]
+      },
+      {
+        "before": ["c", "J"],
+        "after": ["c", "b"]
+      },
+      {
+        "before": ["c", "L"],
+        "after": ["c", "w"]
+      },
+      //COPY
+      {
+        "before": ["y", "j"],
+        "after": ["y", "h"]
+      },
+      {
+        "before": ["y", "f"],
+        "after": ["y", "/"]
+      },
+      {
+        "before": ["y", "J"],
+        "after": ["y", "b"]
+      },
+      {
+        "before": ["y", "L"],
+        "after": ["y", "w"]
+      },
+      //END WITH ;
+      {
+        "before": ["x", "x"],
+        "after": ["=", "space", ";", "<ESC>"]
+      },
+      //END WITH ,
+      {
+        "before": ["v", "v"],
+        "after": ["=", "space", ",", "<ESC>"]
+      },
+      //GO TO NEXT PATTERN () [] {}
+      {
+        "before": ["g", "p"],
+        "after": ["%"]
+      }
+    ],
+  
+    "vim.visualModeKeyBindingsNonRecursive": [
+      // CHANGE MOVE
+      {
+        "before": ["j"],
+        "after": ["h"]
+      },
+      {
+        "before": ["k"],
+        "after": ["g", "j"]
+      },
+      {
+        "before": ["i"],
+        "after": ["g", "k"]
+      },
+      {
+        "before": ["t"],
+        "after": ["f"]
+      },
+      //GO NEXT VERTICAL BLOCK
+      {
+        "before": ["I"],
+        "after": ["{"]
+      },
+      //GO PREVIUS VERTICAL BLOCK
+      {
+        "before": ["K"],
+        "after": ["}"]
+      }
+    ],
+  
+    "vim.visualModeKeyBindings": [
+      //CTRL+F LIKE VISUAL
+      {
+        "before": ["C-f"],
+        "after": ["/"]
+      },
+      {
+        "before": ["f"],
+        "after": ["/"]
+      },
+      //CHANGES MOVES BY WORD
+      {
+        "before": ["L"],
+        "after": ["w"]
+      },
+      {
+        "before": ["C-l"],
+        "after": ["W"]
+      },
+      {
+        "before": ["J"],
+        "after": ["b"]
+      },
+      {
+        "before": ["C-j"],
+        "after": ["B"]
+      },
+      //INIT NO BLANK CHAR LANE
+      {
+        "before": ["0"],
+        "after": ["^"]
+      },
+      //END NO BLANK CHAR LINE
+      {
+        "before": ["="],
+        "after": ["$"]
+      },
+      //GO TO NEXT PATTERN () [] {}
+      {
+        "before": ["g", "p"],
+        "after": ["%"]
+      }
+    ],
+  
+    "vim.insertModeKeyBindings": [
+      //INSERT MODE
+      {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+      },
+      //PUT ; AT THE END OF THE LANE
+      {
+        "before": ["x", "x"],
+        "after": ["<Esc>", "$", "space", ";"]
+      },
+      //PUT ; AT THE END OF THE LANE 
+      {
+        "before": ["v", "v"],
+        "after": ["<Esc>", "$", "space", ","]
+      }
+    ],
+    "editor.lineNumbers": "relative"
+  }
+  
